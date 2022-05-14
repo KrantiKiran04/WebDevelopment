@@ -1,0 +1,121 @@
+.main-content {
+    display:grid;
+    grid-template-columns: 300px 700px;
+    min-height: 1000px;
+    width:90%;
+}
+
+.left-section {
+    background-color: red;
+}
+
+.right-section {
+    background-color: orange;
+}
+
+.left-content {
+    padding: 1rem;
+}
+
+.profile-image {
+    display: block;
+    position: center;
+    margin: auto;
+    width: 60%;
+    border: 5px white solid;
+    border-radius:30%;
+}
+
+.name {
+    font-size:1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    letter-spacing:0.02px;
+    color:black;
+}
+
+.designation {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    color:blue;
+}
+
+.description {
+    font-size: 0.75rem;
+    text-align:center;
+    padding: 1rem;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom:10px;
+    position: center;
+}
+
+.icon img {
+    display:block;
+    border: 1px white solid;
+    border-radius:20%;
+    position: center;
+    width:70%;
+}
+
+.contact-info {
+    padding-top:5px;
+}
+
+.mail {
+    list-style-image: url(./img/icons8-mail-24.png);
+}
+
+.phone {
+    list-style-image: url(./img/icons8-phone-24.png);
+}
+
+.address {
+    list-style-image: url(./img/icons8-location-24.png);
+}
+
+.skills {
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1rem 0.5rem;
+    text-transform: uppercase;
+}
+
+.skill-name {
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom:0.5rem
+}
+.progress-bar {
+    border: 1px white solid;
+    height:4px;
+    background-color: white;
+}
+
+.right-main-content {
+    padding:2rem 3rem;
+}
+
+.right-title {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.right-sub-title {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
